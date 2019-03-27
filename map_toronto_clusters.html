@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.3.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_cbe506e955624e04bcc504824244e068 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_cbe506e955624e04bcc504824244e068" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_cbe506e955624e04bcc504824244e068 = L.map(
+        'map_cbe506e955624e04bcc504824244e068', {
+        center: [43.67635739999999, -79.2930312],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_1de47ec9b4b543e0b535915a63a4f992 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_cbe506e955624e04bcc504824244e068);
+    
+            var circle_marker_c44337bac01c4dbc9f87f4ed0fd43f10 = L.circleMarker(
+                [43.67635739999999, -79.2930312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_1cef4cac3c344c78ba775ca900bd2037 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_632bf5adbd0a4ecfa518cd0e25260653 = $(`<div id="html_632bf5adbd0a4ecfa518cd0e25260653" style="width: 100.0%; height: 100.0%;">East Toronto Cluster 2</div>`)[0];
+                popup_1cef4cac3c344c78ba775ca900bd2037.setContent(html_632bf5adbd0a4ecfa518cd0e25260653);
+            
+
+            circle_marker_c44337bac01c4dbc9f87f4ed0fd43f10.bindPopup(popup_1cef4cac3c344c78ba775ca900bd2037)
+            ;
+
+            
+        
+    
+            var circle_marker_de0df42b624c4207b67fecae00de4525 = L.circleMarker(
+                [43.6795571, -79.352188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_99a283e604b8499b895c6394311a498a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bd564113670c4c38874c5dad74934ab5 = $(`<div id="html_bd564113670c4c38874c5dad74934ab5" style="width: 100.0%; height: 100.0%;">East Toronto Cluster 2</div>`)[0];
+                popup_99a283e604b8499b895c6394311a498a.setContent(html_bd564113670c4c38874c5dad74934ab5);
+            
+
+            circle_marker_de0df42b624c4207b67fecae00de4525.bindPopup(popup_99a283e604b8499b895c6394311a498a)
+            ;
+
+            
+        
+    
+            var circle_marker_0e8080922cb9486d820d0dc747639cec = L.circleMarker(
+                [43.6689985, -79.31557159999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_5f3a8ba33f394f77be1bee98ef5be633 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_401af8e468944e1ba73900172c2fd722 = $(`<div id="html_401af8e468944e1ba73900172c2fd722" style="width: 100.0%; height: 100.0%;">East Toronto Cluster 2</div>`)[0];
+                popup_5f3a8ba33f394f77be1bee98ef5be633.setContent(html_401af8e468944e1ba73900172c2fd722);
+            
+
+            circle_marker_0e8080922cb9486d820d0dc747639cec.bindPopup(popup_5f3a8ba33f394f77be1bee98ef5be633)
+            ;
+
+            
+        
+    
+            var circle_marker_dfe0acf517ff46c58b95b9082ac0a7c5 = L.circleMarker(
+                [43.6595255, -79.340923],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_aa5d68cd877d4da5a9a15c2cffa673b7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d06c535e90a54401b4de30450aade41e = $(`<div id="html_d06c535e90a54401b4de30450aade41e" style="width: 100.0%; height: 100.0%;">East Toronto Cluster 2</div>`)[0];
+                popup_aa5d68cd877d4da5a9a15c2cffa673b7.setContent(html_d06c535e90a54401b4de30450aade41e);
+            
+
+            circle_marker_dfe0acf517ff46c58b95b9082ac0a7c5.bindPopup(popup_aa5d68cd877d4da5a9a15c2cffa673b7)
+            ;
+
+            
+        
+    
+            var circle_marker_4d04633bb80549579408d594d509ec4f = L.circleMarker(
+                [43.7280205, -79.3887901],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_d62d832cb32743d1bceab43bcfa8cca2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b1412bf50bc14f619e53b6afde2df28d = $(`<div id="html_b1412bf50bc14f619e53b6afde2df28d" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_d62d832cb32743d1bceab43bcfa8cca2.setContent(html_b1412bf50bc14f619e53b6afde2df28d);
+            
+
+            circle_marker_4d04633bb80549579408d594d509ec4f.bindPopup(popup_d62d832cb32743d1bceab43bcfa8cca2)
+            ;
+
+            
+        
+    
+            var circle_marker_274881b8b7194b6e9b01c460265f0475 = L.circleMarker(
+                [43.7127511, -79.3901975],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_6a02c7cc2a7c47c2b271700f772ff1a9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_104e3549ebd04755a53bc46515561f1b = $(`<div id="html_104e3549ebd04755a53bc46515561f1b" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_6a02c7cc2a7c47c2b271700f772ff1a9.setContent(html_104e3549ebd04755a53bc46515561f1b);
+            
+
+            circle_marker_274881b8b7194b6e9b01c460265f0475.bindPopup(popup_6a02c7cc2a7c47c2b271700f772ff1a9)
+            ;
+
+            
+        
+    
+            var circle_marker_337e77f28a004953a62c90a7344c263b = L.circleMarker(
+                [43.7153834, -79.40567840000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_5592eee305774cd08dc385afca1a2275 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_94a4ca825657495bbd1d48fe39457a70 = $(`<div id="html_94a4ca825657495bbd1d48fe39457a70" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_5592eee305774cd08dc385afca1a2275.setContent(html_94a4ca825657495bbd1d48fe39457a70);
+            
+
+            circle_marker_337e77f28a004953a62c90a7344c263b.bindPopup(popup_5592eee305774cd08dc385afca1a2275)
+            ;
+
+            
+        
+    
+            var circle_marker_8b17178d3b9b46a2a8c58575b9022d36 = L.circleMarker(
+                [43.7043244, -79.3887901],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_00962d7bb6514f90acb91c5403b83db6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fdf14e1894eb40ebbe4a904a1776275a = $(`<div id="html_fdf14e1894eb40ebbe4a904a1776275a" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_00962d7bb6514f90acb91c5403b83db6.setContent(html_fdf14e1894eb40ebbe4a904a1776275a);
+            
+
+            circle_marker_8b17178d3b9b46a2a8c58575b9022d36.bindPopup(popup_00962d7bb6514f90acb91c5403b83db6)
+            ;
+
+            
+        
+    
+            var circle_marker_5f8e47a6e84a4968a0dcc64a819b8898 = L.circleMarker(
+                [43.6895743, -79.38315990000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_3d5dd993d32a4e1a9d1b9e3f81df067f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b1d89cb018ff49a9a6aeabf42639224b = $(`<div id="html_b1d89cb018ff49a9a6aeabf42639224b" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_3d5dd993d32a4e1a9d1b9e3f81df067f.setContent(html_b1d89cb018ff49a9a6aeabf42639224b);
+            
+
+            circle_marker_5f8e47a6e84a4968a0dcc64a819b8898.bindPopup(popup_3d5dd993d32a4e1a9d1b9e3f81df067f)
+            ;
+
+            
+        
+    
+            var circle_marker_7c296efe94e14a4d81dbfffeed6538f6 = L.circleMarker(
+                [43.68641229999999, -79.4000493],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_195f902286334f9f8eb64f28eecce304 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_98f4f2ba046d457db41fa7121f82584e = $(`<div id="html_98f4f2ba046d457db41fa7121f82584e" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_195f902286334f9f8eb64f28eecce304.setContent(html_98f4f2ba046d457db41fa7121f82584e);
+            
+
+            circle_marker_7c296efe94e14a4d81dbfffeed6538f6.bindPopup(popup_195f902286334f9f8eb64f28eecce304)
+            ;
+
+            
+        
+    
+            var circle_marker_8ae5870209bb4015852e389bcd022fe8 = L.circleMarker(
+                [43.6795626, -79.37752940000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_d97da936f8654686a6fcf8eaa1dc0297 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c4455805c4164e3e8709fc4701381cd9 = $(`<div id="html_c4455805c4164e3e8709fc4701381cd9" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_d97da936f8654686a6fcf8eaa1dc0297.setContent(html_c4455805c4164e3e8709fc4701381cd9);
+            
+
+            circle_marker_8ae5870209bb4015852e389bcd022fe8.bindPopup(popup_d97da936f8654686a6fcf8eaa1dc0297)
+            ;
+
+            
+        
+    
+            var circle_marker_6dfd281a18564ec68aaa7b1ea26ca350 = L.circleMarker(
+                [43.667967, -79.3676753],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_502538270aa4459e91f5e85596f3fbd6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_19bb871bc7cd4271b3c70bc6554f1542 = $(`<div id="html_19bb871bc7cd4271b3c70bc6554f1542" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_502538270aa4459e91f5e85596f3fbd6.setContent(html_19bb871bc7cd4271b3c70bc6554f1542);
+            
+
+            circle_marker_6dfd281a18564ec68aaa7b1ea26ca350.bindPopup(popup_502538270aa4459e91f5e85596f3fbd6)
+            ;
+
+            
+        
+    
+            var circle_marker_b65a4a1e417a476cb63d43e480d43de0 = L.circleMarker(
+                [43.6658599, -79.38315990000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_e2d2ce9d2f1f41c5bb2f1cded16b20c6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c31d005666194e4f825f4bd53b953ca3 = $(`<div id="html_c31d005666194e4f825f4bd53b953ca3" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_e2d2ce9d2f1f41c5bb2f1cded16b20c6.setContent(html_c31d005666194e4f825f4bd53b953ca3);
+            
+
+            circle_marker_b65a4a1e417a476cb63d43e480d43de0.bindPopup(popup_e2d2ce9d2f1f41c5bb2f1cded16b20c6)
+            ;
+
+            
+        
+    
+            var circle_marker_45f5fe40ddb64a7a970e10eaa0baa9f5 = L.circleMarker(
+                [43.6542599, -79.3606359],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_11b2204d921244ac81a780a7229f723b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a6f28b6b7b34ba0b45955e80ab68623 = $(`<div id="html_9a6f28b6b7b34ba0b45955e80ab68623" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_11b2204d921244ac81a780a7229f723b.setContent(html_9a6f28b6b7b34ba0b45955e80ab68623);
+            
+
+            circle_marker_45f5fe40ddb64a7a970e10eaa0baa9f5.bindPopup(popup_11b2204d921244ac81a780a7229f723b)
+            ;
+
+            
+        
+    
+            var circle_marker_e0b98ef9f8644a7c8352794de7d0ce22 = L.circleMarker(
+                [43.6571618, -79.37893709999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_a88a9cc98f4c4bff842fc3d9f6b91afc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9a610cba030f490ba1512add5c82bc20 = $(`<div id="html_9a610cba030f490ba1512add5c82bc20" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_a88a9cc98f4c4bff842fc3d9f6b91afc.setContent(html_9a610cba030f490ba1512add5c82bc20);
+            
+
+            circle_marker_e0b98ef9f8644a7c8352794de7d0ce22.bindPopup(popup_a88a9cc98f4c4bff842fc3d9f6b91afc)
+            ;
+
+            
+        
+    
+            var circle_marker_8002e98f746a47a497bdcca5ad1e49bc = L.circleMarker(
+                [43.6514939, -79.3754179],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_63211be312624822885fb609e8562a1a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_50560788a4224836ae50d425bcd7b0c0 = $(`<div id="html_50560788a4224836ae50d425bcd7b0c0" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_63211be312624822885fb609e8562a1a.setContent(html_50560788a4224836ae50d425bcd7b0c0);
+            
+
+            circle_marker_8002e98f746a47a497bdcca5ad1e49bc.bindPopup(popup_63211be312624822885fb609e8562a1a)
+            ;
+
+            
+        
+    
+            var circle_marker_59268624217c4466917d294f6fd76005 = L.circleMarker(
+                [43.644770799999996, -79.3733064],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_c518484ede8b4aaf9849dd2646b7934d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b07b51519b5144cabdf47ec5ef808881 = $(`<div id="html_b07b51519b5144cabdf47ec5ef808881" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_c518484ede8b4aaf9849dd2646b7934d.setContent(html_b07b51519b5144cabdf47ec5ef808881);
+            
+
+            circle_marker_59268624217c4466917d294f6fd76005.bindPopup(popup_c518484ede8b4aaf9849dd2646b7934d)
+            ;
+
+            
+        
+    
+            var circle_marker_165ae07425c2440da8c3a230b6bb0451 = L.circleMarker(
+                [43.6579524, -79.3873826],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_b1baec0ba7f0483db336a24c6c292fbf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_80782c27a5cf49a4bfce5498c9cfa98e = $(`<div id="html_80782c27a5cf49a4bfce5498c9cfa98e" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_b1baec0ba7f0483db336a24c6c292fbf.setContent(html_80782c27a5cf49a4bfce5498c9cfa98e);
+            
+
+            circle_marker_165ae07425c2440da8c3a230b6bb0451.bindPopup(popup_b1baec0ba7f0483db336a24c6c292fbf)
+            ;
+
+            
+        
+    
+            var circle_marker_a191c52ee26e4ef487f6525d0bfe7280 = L.circleMarker(
+                [43.65057120000001, -79.3845675],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_bb406af217fa43ed823000ce8431250f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_13d672c036694c6bb710204d8b36e620 = $(`<div id="html_13d672c036694c6bb710204d8b36e620" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_bb406af217fa43ed823000ce8431250f.setContent(html_13d672c036694c6bb710204d8b36e620);
+            
+
+            circle_marker_a191c52ee26e4ef487f6525d0bfe7280.bindPopup(popup_bb406af217fa43ed823000ce8431250f)
+            ;
+
+            
+        
+    
+            var circle_marker_9eb7bbddbca94b8a99712eed10d24f23 = L.circleMarker(
+                [43.6408157, -79.38175229999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_61c543347935409ba7cf116c71508b5a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6b43eee6f9b48fb9c7bc731b23d2377 = $(`<div id="html_d6b43eee6f9b48fb9c7bc731b23d2377" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_61c543347935409ba7cf116c71508b5a.setContent(html_d6b43eee6f9b48fb9c7bc731b23d2377);
+            
+
+            circle_marker_9eb7bbddbca94b8a99712eed10d24f23.bindPopup(popup_61c543347935409ba7cf116c71508b5a)
+            ;
+
+            
+        
+    
+            var circle_marker_9a673a04e5464b13890c1ef9552a645e = L.circleMarker(
+                [43.6471768, -79.38157640000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_bd9c8bdc29fa4219ae278109d8d1c0fb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b6e498494d684ca8818a01537b813a39 = $(`<div id="html_b6e498494d684ca8818a01537b813a39" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_bd9c8bdc29fa4219ae278109d8d1c0fb.setContent(html_b6e498494d684ca8818a01537b813a39);
+            
+
+            circle_marker_9a673a04e5464b13890c1ef9552a645e.bindPopup(popup_bd9c8bdc29fa4219ae278109d8d1c0fb)
+            ;
+
+            
+        
+    
+            var circle_marker_e33a095bb6ca43c790f5e091693f8428 = L.circleMarker(
+                [43.6481985, -79.37981690000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_bbc28ca2dd504ec88a41476e456dd442 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3c5a545d26f14965bc5ae83af0b7d45d = $(`<div id="html_3c5a545d26f14965bc5ae83af0b7d45d" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_bbc28ca2dd504ec88a41476e456dd442.setContent(html_3c5a545d26f14965bc5ae83af0b7d45d);
+            
+
+            circle_marker_e33a095bb6ca43c790f5e091693f8428.bindPopup(popup_bbc28ca2dd504ec88a41476e456dd442)
+            ;
+
+            
+        
+    
+            var circle_marker_32a842283cfc4beca40b35019f30d09b = L.circleMarker(
+                [43.7116948, -79.41693559999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_66c97e8923044c3ba39b43215e76b402 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c4fb9300ecd14efebf29e9b99b3919a9 = $(`<div id="html_c4fb9300ecd14efebf29e9b99b3919a9" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_66c97e8923044c3ba39b43215e76b402.setContent(html_c4fb9300ecd14efebf29e9b99b3919a9);
+            
+
+            circle_marker_32a842283cfc4beca40b35019f30d09b.bindPopup(popup_66c97e8923044c3ba39b43215e76b402)
+            ;
+
+            
+        
+    
+            var circle_marker_e381eb7d03024d74a67a203e0dcf8660 = L.circleMarker(
+                [43.6969476, -79.41130720000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_773623f5897c45d992ec3b9c9fe97414 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b4d28be9ad274a0d91547936ba611bdc = $(`<div id="html_b4d28be9ad274a0d91547936ba611bdc" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_773623f5897c45d992ec3b9c9fe97414.setContent(html_b4d28be9ad274a0d91547936ba611bdc);
+            
+
+            circle_marker_e381eb7d03024d74a67a203e0dcf8660.bindPopup(popup_773623f5897c45d992ec3b9c9fe97414)
+            ;
+
+            
+        
+    
+            var circle_marker_8ee5d4f0108f4fc8ac8564b9b5ef5044 = L.circleMarker(
+                [43.6727097, -79.40567840000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_1334f25cda3c49f686e2ff069f2b68ed = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d44a7ff17bb648f580acd4296cd753f5 = $(`<div id="html_d44a7ff17bb648f580acd4296cd753f5" style="width: 100.0%; height: 100.0%;">Central Toronto Cluster 0</div>`)[0];
+                popup_1334f25cda3c49f686e2ff069f2b68ed.setContent(html_d44a7ff17bb648f580acd4296cd753f5);
+            
+
+            circle_marker_8ee5d4f0108f4fc8ac8564b9b5ef5044.bindPopup(popup_1334f25cda3c49f686e2ff069f2b68ed)
+            ;
+
+            
+        
+    
+            var circle_marker_861c353615f445fea8657eea48eab90a = L.circleMarker(
+                [43.6626956, -79.4000493],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_f1142daffcbf4b6fbdf52c574a523431 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2975f60559ce447a91b2ca4e1ef2b18c = $(`<div id="html_2975f60559ce447a91b2ca4e1ef2b18c" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_f1142daffcbf4b6fbdf52c574a523431.setContent(html_2975f60559ce447a91b2ca4e1ef2b18c);
+            
+
+            circle_marker_861c353615f445fea8657eea48eab90a.bindPopup(popup_f1142daffcbf4b6fbdf52c574a523431)
+            ;
+
+            
+        
+    
+            var circle_marker_6d8859704234462f86f12678abae8433 = L.circleMarker(
+                [43.6532057, -79.4000493],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_2d7d971c29084595afe508202fc2fffa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3f44c8615fc14e21b966e832e897fed3 = $(`<div id="html_3f44c8615fc14e21b966e832e897fed3" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_2d7d971c29084595afe508202fc2fffa.setContent(html_3f44c8615fc14e21b966e832e897fed3);
+            
+
+            circle_marker_6d8859704234462f86f12678abae8433.bindPopup(popup_2d7d971c29084595afe508202fc2fffa)
+            ;
+
+            
+        
+    
+            var circle_marker_9f274bf4b9764655945338f4bb56b90b = L.circleMarker(
+                [43.6289467, -79.3944199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_dd48f7c2f75c451a8995dbe4bb29f7b3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae01012b4f4f4706a9b1b7330156bcaf = $(`<div id="html_ae01012b4f4f4706a9b1b7330156bcaf" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_dd48f7c2f75c451a8995dbe4bb29f7b3.setContent(html_ae01012b4f4f4706a9b1b7330156bcaf);
+            
+
+            circle_marker_9f274bf4b9764655945338f4bb56b90b.bindPopup(popup_dd48f7c2f75c451a8995dbe4bb29f7b3)
+            ;
+
+            
+        
+    
+            var circle_marker_32d24c770fed4cf9b72579a45754ec9c = L.circleMarker(
+                [43.6464352, -79.37484599999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_9ccb15378ae549c5a0abe5f7b4d6e31a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_afaf1b47ce334b469c17665f94fe7c05 = $(`<div id="html_afaf1b47ce334b469c17665f94fe7c05" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_9ccb15378ae549c5a0abe5f7b4d6e31a.setContent(html_afaf1b47ce334b469c17665f94fe7c05);
+            
+
+            circle_marker_32d24c770fed4cf9b72579a45754ec9c.bindPopup(popup_9ccb15378ae549c5a0abe5f7b4d6e31a)
+            ;
+
+            
+        
+    
+            var circle_marker_ce9ca5e19380472fbd715860fea04812 = L.circleMarker(
+                [43.6484292, -79.3822802],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_eeb6556a66134a28a9fcf9e4fe9aea92 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_487ecbcd77794f50bc8d3bfc06f5c6e7 = $(`<div id="html_487ecbcd77794f50bc8d3bfc06f5c6e7" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_eeb6556a66134a28a9fcf9e4fe9aea92.setContent(html_487ecbcd77794f50bc8d3bfc06f5c6e7);
+            
+
+            circle_marker_ce9ca5e19380472fbd715860fea04812.bindPopup(popup_eeb6556a66134a28a9fcf9e4fe9aea92)
+            ;
+
+            
+        
+    
+            var circle_marker_f57dc98514a34d76bde9c6f676203457 = L.circleMarker(
+                [43.669542, -79.4225637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#d4dd80",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#d4dd80",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_67e899f7b88344f3b28aea579ecdf7cd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4b9d3f4e6c4f4645b01f4024de92954c = $(`<div id="html_4b9d3f4e6c4f4645b01f4024de92954c" style="width: 100.0%; height: 100.0%;">Downtown Toronto Cluster 3</div>`)[0];
+                popup_67e899f7b88344f3b28aea579ecdf7cd.setContent(html_4b9d3f4e6c4f4645b01f4024de92954c);
+            
+
+            circle_marker_f57dc98514a34d76bde9c6f676203457.bindPopup(popup_67e899f7b88344f3b28aea579ecdf7cd)
+            ;
+
+            
+        
+    
+            var circle_marker_89d6f792d9354406bc98c0faa0a0a159 = L.circleMarker(
+                [43.66900510000001, -79.4422593],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_1924d8f975ab49b0aacf191a17a3e2a7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_16fa26fe8d4d4ace9ddb044a3b122f61 = $(`<div id="html_16fa26fe8d4d4ace9ddb044a3b122f61" style="width: 100.0%; height: 100.0%;">West Toronto Cluster 1</div>`)[0];
+                popup_1924d8f975ab49b0aacf191a17a3e2a7.setContent(html_16fa26fe8d4d4ace9ddb044a3b122f61);
+            
+
+            circle_marker_89d6f792d9354406bc98c0faa0a0a159.bindPopup(popup_1924d8f975ab49b0aacf191a17a3e2a7)
+            ;
+
+            
+        
+    
+            var circle_marker_a7019079c0af49de932046e2e11c75be = L.circleMarker(
+                [43.647926700000006, -79.4197497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_39a06190129c45efbeb6af7056160590 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_25eed2eabfff41bfa1c29a6d2fcf5cc7 = $(`<div id="html_25eed2eabfff41bfa1c29a6d2fcf5cc7" style="width: 100.0%; height: 100.0%;">West Toronto Cluster 1</div>`)[0];
+                popup_39a06190129c45efbeb6af7056160590.setContent(html_25eed2eabfff41bfa1c29a6d2fcf5cc7);
+            
+
+            circle_marker_a7019079c0af49de932046e2e11c75be.bindPopup(popup_39a06190129c45efbeb6af7056160590)
+            ;
+
+            
+        
+    
+            var circle_marker_5f57702fa8a64ce593ae7d499e0c2b96 = L.circleMarker(
+                [43.6368472, -79.42819140000002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_3d54cdda6f5c473d8aaea9aa714121ff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fb96dd1d18204d998941ce640e634b0c = $(`<div id="html_fb96dd1d18204d998941ce640e634b0c" style="width: 100.0%; height: 100.0%;">West Toronto Cluster 1</div>`)[0];
+                popup_3d54cdda6f5c473d8aaea9aa714121ff.setContent(html_fb96dd1d18204d998941ce640e634b0c);
+            
+
+            circle_marker_5f57702fa8a64ce593ae7d499e0c2b96.bindPopup(popup_3d54cdda6f5c473d8aaea9aa714121ff)
+            ;
+
+            
+        
+    
+            var circle_marker_15d8a679a57f4295baeaf91dbce12d3c = L.circleMarker(
+                [43.6616083, -79.46476329999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_60a1c14dada1495e8deb983553f52a6a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ebdc4d932be244c1b9b617cc6f1c6ba0 = $(`<div id="html_ebdc4d932be244c1b9b617cc6f1c6ba0" style="width: 100.0%; height: 100.0%;">West Toronto Cluster 1</div>`)[0];
+                popup_60a1c14dada1495e8deb983553f52a6a.setContent(html_ebdc4d932be244c1b9b617cc6f1c6ba0);
+            
+
+            circle_marker_15d8a679a57f4295baeaf91dbce12d3c.bindPopup(popup_60a1c14dada1495e8deb983553f52a6a)
+            ;
+
+            
+        
+    
+            var circle_marker_bb230a1fd3dd4894839e48f88553a32c = L.circleMarker(
+                [43.6489597, -79.456325],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_4e3b278024f340f28c09fbca5f449224 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_32430628b0e642f58a946f19a1a20d43 = $(`<div id="html_32430628b0e642f58a946f19a1a20d43" style="width: 100.0%; height: 100.0%;">West Toronto Cluster 1</div>`)[0];
+                popup_4e3b278024f340f28c09fbca5f449224.setContent(html_32430628b0e642f58a946f19a1a20d43);
+            
+
+            circle_marker_bb230a1fd3dd4894839e48f88553a32c.bindPopup(popup_4e3b278024f340f28c09fbca5f449224)
+            ;
+
+            
+        
+    
+            var circle_marker_c4104e08877b444eae32e978a6db0909 = L.circleMarker(
+                [43.6515706, -79.4844499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_5b4e534678fa433db0807795540b0466 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7f44cb6d8ad24a16a93334d2741eace3 = $(`<div id="html_7f44cb6d8ad24a16a93334d2741eace3" style="width: 100.0%; height: 100.0%;">West Toronto Cluster 1</div>`)[0];
+                popup_5b4e534678fa433db0807795540b0466.setContent(html_7f44cb6d8ad24a16a93334d2741eace3);
+            
+
+            circle_marker_c4104e08877b444eae32e978a6db0909.bindPopup(popup_5b4e534678fa433db0807795540b0466)
+            ;
+
+            
+        
+    
+            var circle_marker_6e7f3c4731bd49d1ac85fe5034b7f975 = L.circleMarker(
+                [43.6627439, -79.321558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#2adddd",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#2adddd",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(map_cbe506e955624e04bcc504824244e068);
+            
+    
+            var popup_ffe1ca54386b484cb59bb547d4790cad = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5757afc7241a472eb6e3d7075e088a80 = $(`<div id="html_5757afc7241a472eb6e3d7075e088a80" style="width: 100.0%; height: 100.0%;">East Toronto Cluster 2</div>`)[0];
+                popup_ffe1ca54386b484cb59bb547d4790cad.setContent(html_5757afc7241a472eb6e3d7075e088a80);
+            
+
+            circle_marker_6e7f3c4731bd49d1ac85fe5034b7f975.bindPopup(popup_ffe1ca54386b484cb59bb547d4790cad)
+            ;
+
+            
+        
+</script>
